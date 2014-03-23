@@ -1,0 +1,165 @@
+body{
+	font-family: "verdana";
+	font-size: 12pt;
+}
+
+
+#txtDesc{
+	max-width: 400px;
+	max-height: 120px;
+	min-height: 60px;
+	min-width: 380px;
+}
+
+#head{
+	color: white;
+	background-color: rgb(40, 40, 40);
+	height: 70px;
+	font-family: "Gill sans ultra Bold";
+	font-size: 20pt;
+	margin-top: -20px;
+	text-shadow: 0px 0px 10px blue,
+				 0px 0px 10px blue,
+				 0px 0px 10px blue,
+				 0px 0px 10px blue,
+				 0px 0px 10px blue,
+				 0px 0px 10px blue;
+}
+
+#divForm{
+	margin-top: 50px;
+	height: 200px;
+}
+
+#divForm, #divData{
+	border: 1px solid lightGrey;
+	box-shadow: 5px 5px 5px lightGrey;
+}
+
+#divData{
+	margin-top: 30px;
+}
+
+input, button{
+	border-radius: 3px;
+	border: 1px solid lightGrey;
+	padding: 5px;
+}
+
+button:hover{
+	box-shadow: 1px 1px 4px lightBlue,
+				-1px -1px 4px lightBlue;
+
+}
+
+#btnGuardar, #btnNuevo{
+	padding: 10px;
+	font-weight: bold;
+	font-size: 11pt;
+}
+
+#btnNuevo{
+	width: 82px;
+	margin-top: 30px;
+}
+
+#txtNom{
+	width: 395px;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+#btnGuardar{
+	margin-top: 10px;
+}
+
+#tblForm{
+	width: 700px;
+	margin: auto;
+	margin-top: -15px;
+}
+
+#tblForm tr td textarea{	
+	border-radius: 5px;
+	border: 1px solid lightGrey;
+	max-height: 80px;
+	min-height: 80px;
+	max-width: 400px;
+	min-width: 400px;
+}
+
+#tblData{
+	width: 750px;
+	margin: auto;
+	border-collapse: collapse;
+	border: 1px solid white;
+	margin-bottom: 20px;
+}
+
+thead{
+	background-color: RoyalBlue;
+	border-bottom: 1px solid rgb(100,100,100);
+}
+
+tr{
+	border-bottom: 1px solid lightGrey;
+}
+
+#th{
+	width: 300px;
+}
+
+#tblData tr td textarea{
+	border: none;
+	width: 360px;
+	height: 50px;
+	resize: none;
+	border-radius: 5px;
+}
+
+#tblData tr td textarea:focus{
+	outline: none;
+}
+
+#lkMod{
+	margin-left: 50px;
+}
+
+#main{
+	width: 950px;
+	margin: auto;
+}
+
+#lkVolver{
+	left: 991px;
+	text-decoration: none;
+	background-color: RoyalBlue;
+	border-radius: 0px 0px 10px 10px;
+	padding: 5px;
+	color: white;
+	top: 86px;
+	position: absolute;
+}
+
+#lkVolver:hover{
+	background-color: lightGrey;
+	color:black;
+
+}
+
+h2{
+	background-color: rgb(40, 40, 40);
+	margin-top: 0px;
+	color: white;
+}
+
+#tdNombre{
+	font-weight: bold;
+	font-size: 13pt;
+	color: black;
+}
+
+#tblData tr td textarea{
+	font-family: "Verdana";
+	font-size: 11pt;
+}

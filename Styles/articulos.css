@@ -1,0 +1,191 @@
+body{
+	font-family: "verdana";
+
+}
+
+#main{
+	width: 950px;
+	margin: auto;
+}
+
+#head{
+	color: white;
+	background-color: rgb(40, 40, 40);
+	height: 90px;
+	font-family: "Gill sans ultra Bold", "Tahoma", "Verdana";
+	font-size: 30pt;
+	margin-top: -50px;
+	text-shadow: 0px 0px 10px blue,
+				 0px 0px 10px blue,
+				 0px 0px 10px blue,
+				 0px 0px 10px blue,
+				 0px 0px 10px blue,
+				 0px 0px 10px blue;
+}
+
+#divForm{
+	border: 1px solid Grey;
+	margin-top: 50px;
+	border: 1px solid lightGrey;
+	box-shadow: 5px 5px 5px lightGrey;
+}
+
+#divForm h2{
+	background-color: rgb(40, 40, 40);
+	margin-top: 0px;
+	color: white;
+}
+
+#divArt {
+	border: 1px solid Grey;
+	margin-top: 35px;
+	border: 1px solid lightGrey;
+	box-shadow: 5px 5px 5px lightGrey;
+}
+
+#divArt h2{
+	background-color: rgb(40, 40, 40);
+	margin-top: 0px;
+	color: white;
+}
+
+#divArt table tr td label{
+	color:blue;
+	font-weight: bold;
+}
+
+
+img{
+	width: 150px;
+	height: 150px;
+	padding: 5px;
+	margin: auto;
+	box-shadow: 5px 5px 5px rgb(30, 30, 30);
+	border: 5px solid rgb(50, 50, 50);
+}
+
+a{
+	text-decoration: none;
+	padding: 7px;
+	background-color: white;
+	border: none;
+	color: black;
+}
+
+a:hover{
+	background-color: lightGrey;
+	color:blue;
+}
+
+#tblArt{
+	width: 90%;
+	margin: auto;
+	font-size: 11pt;
+}
+
+#tblForm tr td textarea{
+	min-width: 400px;
+	max-width: 400px;
+	min-height: 70px;
+	max-height: 100px;	
+	border-radius: 3px;
+	border: 1px solid lightGrey;
+	padding: 5px;
+}
+
+#tblForm{	
+	margin: auto;
+	width: 90%;
+	margin-bottom: 20px;
+}
+
+#footer{
+	background-color: rgb(40, 40, 40);
+	height: 100px;
+	width: 950px;
+	margin: auto;
+	box-shadow: 5px 5px 5px lightGrey;
+}
+
+#file{
+}
+
+#txt{
+	width: 300px;
+}
+
+
+select{
+	padding: 7px;
+	border-radius: 3px;
+	border: 1px solid lightGrey;
+	font-family: "verdana";
+}
+
+
+#tblArt tr td textarea{
+	border: none;
+	font-family: "verdana";
+	font-size: 11pt;
+	min-width: 500px;
+	max-width: 500px;
+	min-height: 60px;
+	max-height: 60px;
+	resize:none;
+}
+
+#btnGuardar{
+	margin-left: 300px;
+}
+
+#tblArt tr td textarea:focus{
+	outline: none;
+}
+
+.desc{
+	margin-top: -30px;
+}
+
+#lkMod{
+	margin-left: 400px;
+}
+
+.lblUbic{
+	margin-left: 150px;
+}
+
+#lkUbic{
+	left: 941px;
+	top: 94px;
+	position: absolute;
+	background-color: DodgerBlue;
+	border-radius: 0px 0px 15px 15px;
+	color: white;
+}
+
+#lkUbic:hover{
+	background-color: lightGrey;
+	color:black;
+}
+
+input, button{
+	border-radius: 3px;
+	border: 1px solid lightGrey;
+	padding: 5px;
+}
+
+.btn{
+	width: 90px;
+	height: 40px;
+	font-weight: bold;	
+}
+
+.btn:hover{
+	box-shadow: 1px 1px 4px lightBlue,
+				-1px -1px 4px lightBlue;
+}
+
+hr{
+	width: 85%;
+	border: 1px solid lightGrey;
+}

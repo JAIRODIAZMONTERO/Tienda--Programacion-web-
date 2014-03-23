@@ -1,0 +1,57 @@
+body{
+	font-family: "verdana";
+}
+
+hr{
+	width: 800px;
+}
+
+h1{
+	margin-top: 50px;
+}
+
+form{
+	margin-top: 70px;
+}
+
+img{
+	left: 900px;
+	top:300px;
+	position: absolute;
+}
+
+p{
+	color:blue;
+	font-size: 12pt;
+
+}
+
+.campo{
+	padding: 5px;
+	border-radius: 3px;
+	border: 1px solid Grey;
+}
+
+#btn{
+	font-weight: bold;
+	margin-top: 50px;
+	margin-left: 100px;
+	padding: 5px;
+	font-size: 14pt;
+	border-radius: 10px;
+	background-color: royalBlue;
+	color: white;
+	width: 150px;
+}
+
+#btn:hover{
+	box-shadow: 1px 1px 5px blue, -1px -1px 5px blue;
+}
+
+table{
+	margin-left: -200px;
+}
+
+.req{
+	color: red;
+}
